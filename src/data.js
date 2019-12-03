@@ -40,6 +40,10 @@ const data = `{
           "value": "John"
         },
         {
+          "id": "lastName",
+          "value": "Smith"
+        },
+        {
           "id": "dateOfBirth",
           "value": "07-11-1992"
         },
@@ -79,6 +83,7 @@ const data = `{
       ]
     }
   ]
-}`
+}
+`;
 
 export default JSON.parse(data);
